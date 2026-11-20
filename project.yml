@@ -1,0 +1,88 @@
+# TODO(Goran): replace bundle identifiers and the App Group before App Store submission.
+name: AlkoholfreiTracker
+options:
+  bundleIdPrefix: de.example
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: de
+  knownRegions:
+    - de
+    - en
+    - Base
+  createIntermediateGroups: true
+  groupSortPosition: top
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+    GENERATE_INFOPLIST_FILE: YES
+configs:
+  Debug: debug
+  Release: release
+targets:
+  AlkoholfreiTracker:
+    type: application
+    platform: iOS
+    sources:
+      - path: AlkoholfreiTracker
+        excludes:
+          - "**/*.entitlements"
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.example.alkoholfrei-tracker
+        PRODUCT_NAME: AlkoholfreiTracker
+        INFOPLIST_KEY_CFBundleDisplayName: Alkoholfrei-Tracker
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        CODE_SIGN_ENTITLEMENTS: AlkoholfreiTracker/AlkoholfreiTracker.entitlements
+    dependencies:
+      - target: AlkoholfreiWidget
+        embed: true
+  AlkoholfreiWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: AlkoholfreiWidget
+        excludes:
+          - Info.plist
+          - "**/*.entitlements"
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.example.alkoholfrei-tracker.widget
+        PRODUCT_NAME: AlkoholfreiWidget
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: AlkoholfreiWidget/Info.plist
+        CODE_SIGN_ENTITLEMENTS: AlkoholfreiWidget/AlkoholfreiWidget.entitlements
+        SKIP_INSTALL: YES
+  AlkoholfreiTrackerTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AlkoholfreiTrackerTests
+    dependencies:
+      - target: AlkoholfreiTracker
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.example.alkoholfrei-tracker.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/AlkoholfreiTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlkoholfreiTracker"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  AlkoholfreiTracker:
+    build:
+      targets:
+        AlkoholfreiTracker: all
+        AlkoholfreiWidget: all
+        AlkoholfreiTrackerTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - AlkoholfreiTrackerTests
