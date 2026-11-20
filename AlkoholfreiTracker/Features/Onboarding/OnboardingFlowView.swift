@@ -8,13 +8,15 @@ struct OnboardingFlowView: View {
 
     var body: some View {
         NavigationStack {
-            VStack(spacing: 0) {
-                stepContent
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-                footer
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    stepContent
+                    footer
+                }
+                .padding(.horizontal, 20)
+                .padding(.vertical, 12)
             }
-            .padding(.horizontal, 20)
-            .padding(.bottom, 12)
+            .background(Color(.systemBackground))
             .navigationTitle("Alkoholfrei-Tracker")
             .navigationBarTitleDisplayMode(.inline)
             .alert("Speichern fehlgeschlagen", isPresented: $saveError) {
@@ -29,11 +31,11 @@ struct OnboardingFlowView: View {
     private var stepContent: some View {
         switch model.step {
         case 0:
-            GoalStepView(model: model)
+            GoalStepContent(model: model)
         case 1:
-            StartDateStepView(model: model)
+            StartDateStepContent(model: model)
         default:
-            DrinksStepView(model: model)
+            DrinksStepContent(model: model)
         }
     }
 
@@ -82,12 +84,11 @@ struct OnboardingFlowView: View {
     }
 }
 
-struct GoalStepView: View {
+struct GoalStepContent: View {
     @Bindable var model: OnboardingModel
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 16) {
                 Text("Was möchtest du angehen?")
                     .font(.title2.weight(.semibold))
                     .accessibilityAddTraits(.isHeader)
@@ -104,8 +105,6 @@ struct GoalStepView: View {
                     }
                     .accessibilityValue("\(model.customLength) Tage")
                 }
-            }
-            .padding(.top, 12)
         }
     }
 
@@ -153,12 +152,11 @@ struct GoalStepView: View {
     }
 }
 
-struct StartDateStepView: View {
+struct StartDateStepContent: View {
     @Bindable var model: OnboardingModel
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 16) {
                 Text("Wann beginnt dein Zähler?")
                     .font(.title2.weight(.semibold))
                     .accessibilityAddTraits(.isHeader)
@@ -175,18 +173,15 @@ struct StartDateStepView: View {
                 )
                 .datePickerStyle(.graphical)
                 .accessibilityLabel("Startdatum")
-            }
-            .padding(.top, 12)
         }
     }
 }
 
-struct DrinksStepView: View {
+struct DrinksStepContent: View {
     @Bindable var model: OnboardingModel
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 16) {
                 Text("Dein übliches Trinken")
                     .font(.title2.weight(.semibold))
                     .accessibilityAddTraits(.isHeader)
@@ -206,8 +201,6 @@ struct DrinksStepView: View {
                         model.drinks.removeLast()
                     }
                 }
-            }
-            .padding(.top, 12)
         }
     }
 }

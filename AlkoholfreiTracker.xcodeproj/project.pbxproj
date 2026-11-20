@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0263BC216525FC2AE8389532 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF48CCFF98719BDD0326861 /* SettingsView.swift */; };
 		0D4CF8FB47836F6333973DCA /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B856F593AF6B5A85105F20 /* AppGroup.swift */; };
 		1131D1C6EB66BB206AC58264 /* TrackingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86D28BAB1C77232B76A8B5 /* TrackingStore.swift */; };
 		12AB7F79B329DAC62A134500 /* MilestoneCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696DE43B84E2279CC175F70 /* MilestoneCatalogTests.swift */; };
 		13A849F6E376810DD567D4B1 /* HomeSummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B747E13C3E042E554FCDB /* HomeSummaryTests.swift */; };
 		13C1CD9E121F8400A190EC80 /* WidgetSnapshotStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D371B3588D2C555D2B92D73 /* WidgetSnapshotStoreTests.swift */; };
 		2590337C15D5D9A5DE3DF6AC /* SavingsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B3E0909682864E51C1687B /* SavingsCalculator.swift */; };
+		27A69AFFEDD78E790547182B /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0092F36B47A2D4448EB66D3A /* ProgressView.swift */; };
 		2BA28A9D7B1411340D4D393B /* ChallengeScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998B6FBD9C5DAF3872BEDB32 /* ChallengeScheduleTests.swift */; };
+		3BD63C5E614C5113241E054E /* MonthCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C6F8CDB5512BDA1E42B02D /* MonthCalendarTests.swift */; };
 		3E83AC3934F0E123D80FBAB7 /* AlkoholfreiWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1D17695CB88931306C353333 /* AlkoholfreiWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4140E11E739E5EF6706AF4F7 /* MonthCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADEBCDF11037F21165D1171 /* MonthCalendar.swift */; };
+		47185BD52A341D094D8E703A /* ProAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AB2CC3396E7F6DF522524 /* ProAccess.swift */; };
 		59E83185E0AE2E97B4052438 /* ChallengeSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA34BAF1E6A169387FB6F8 /* ChallengeSchedule.swift */; };
 		5B14F669C24FAD0EFB59AE94 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EAAA5B6711D3E3955173D0E8 /* Localizable.xcstrings */; };
 		6E1C6142F6416CD377995F7F /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B856F593AF6B5A85105F20 /* AppGroup.swift */; };
@@ -28,6 +33,7 @@
 		A63F6E989A7BB62DDC6EB40D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B927A650B98229B1BF6839 /* HomeView.swift */; };
 		A744D891BC4FD29166343E26 /* StreakCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6853DAD1982DFC25EEA05C /* StreakCalculator.swift */; };
 		B4E713719F9508415CD99B03 /* AlkoholfreiTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526DDCAD901CF3108C56741 /* AlkoholfreiTrackerApp.swift */; };
+		B53235F0EFF4D257C285F484 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63B1815503490D298926BF9 /* StatisticsView.swift */; };
 		B6C36A3DF636BECDEE1D0FE2 /* EasterCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78852B861198074D7DB000C6 /* EasterCalendar.swift */; };
 		BC7857FCD4AACF83BE1A5AD1 /* ModelStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CD98A26E99C70F5D57CB8 /* ModelStoreTests.swift */; };
 		BE6582A1681D64CF7BE018A5 /* AppModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5470B0C7C7FE03DEB630C /* AppModelContainer.swift */; };
@@ -75,11 +81,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0092F36B47A2D4448EB66D3A /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		14C7E14D05E9103D826DCB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C679F9844F869D4D41EDB60 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		1D17695CB88931306C353333 /* AlkoholfreiWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AlkoholfreiWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		221AB2CC3396E7F6DF522524 /* ProAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAccess.swift; sourceTree = "<group>"; };
 		28002B1504D54E98D8583984 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		2D371B3588D2C555D2B92D73 /* WidgetSnapshotStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotStoreTests.swift; sourceTree = "<group>"; };
+		2DF48CCFF98719BDD0326861 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		34B927A650B98229B1BF6839 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		376BB8EE5AE6DB0816710DFB /* TrackingTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingTypes.swift; sourceTree = "<group>"; };
 		3984085A11B68A076B62E7D4 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
@@ -89,7 +98,9 @@
 		5696DE43B84E2279CC175F70 /* MilestoneCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneCatalogTests.swift; sourceTree = "<group>"; };
 		5A86D28BAB1C77232B76A8B5 /* TrackingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingStore.swift; sourceTree = "<group>"; };
 		5C30DA6DB024DF8BE38101D3 /* MilestoneCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneCatalog.swift; sourceTree = "<group>"; };
+		6ADEBCDF11037F21165D1171 /* MonthCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCalendar.swift; sourceTree = "<group>"; };
 		6BEA34BAF1E6A169387FB6F8 /* ChallengeSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeSchedule.swift; sourceTree = "<group>"; };
+		72C6F8CDB5512BDA1E42B02D /* MonthCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCalendarTests.swift; sourceTree = "<group>"; };
 		78852B861198074D7DB000C6 /* EasterCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasterCalendar.swift; sourceTree = "<group>"; };
 		78B3E0909682864E51C1687B /* SavingsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsCalculator.swift; sourceTree = "<group>"; };
 		887C405B92196B5C0509B1E8 /* AlkoholfreiTracker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AlkoholfreiTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +109,7 @@
 		9526DDCAD901CF3108C56741 /* AlkoholfreiTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlkoholfreiTrackerApp.swift; sourceTree = "<group>"; };
 		998B6FBD9C5DAF3872BEDB32 /* ChallengeScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScheduleTests.swift; sourceTree = "<group>"; };
 		9C2B747E13C3E042E554FCDB /* HomeSummaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSummaryTests.swift; sourceTree = "<group>"; };
+		A63B1815503490D298926BF9 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		A8764B30B01885C772BF38EC /* StreakCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalculatorTests.swift; sourceTree = "<group>"; };
 		B1A748B4EC767A4235C87433 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C05104D557BDE8C29EE2B873 /* DraftDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftDrink.swift; sourceTree = "<group>"; };
@@ -148,6 +160,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		4E2CA40FDECFD8250ADC9CC2 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				0092F36B47A2D4448EB66D3A /* ProgressView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
 		8940D9523CFACDC4EBD84787 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,11 +204,28 @@
 				9C2B747E13C3E042E554FCDB /* HomeSummaryTests.swift */,
 				5696DE43B84E2279CC175F70 /* MilestoneCatalogTests.swift */,
 				C92CD98A26E99C70F5D57CB8 /* ModelStoreTests.swift */,
+				72C6F8CDB5512BDA1E42B02D /* MonthCalendarTests.swift */,
 				FB4952BB307A6E52021E22E6 /* SavingsCalculatorTests.swift */,
 				A8764B30B01885C772BF38EC /* StreakCalculatorTests.swift */,
 				2D371B3588D2C555D2B92D73 /* WidgetSnapshotStoreTests.swift */,
 			);
 			path = AlkoholfreiTrackerTests;
+			sourceTree = "<group>";
+		};
+		C2283D5B4E053D6536050C00 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				A63B1815503490D298926BF9 /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		C5F1EC21BA4D3620C47A6592 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2DF48CCFF98719BDD0326861 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		C831F5C3C6061073BD16249B /* Shell */ = {
@@ -197,6 +234,14 @@
 				28002B1504D54E98D8583984 /* MainTabView.swift */,
 			);
 			path = Shell;
+			sourceTree = "<group>";
+		};
+		D1E759CF942C93499E38DA1E /* Purchases */ = {
+			isa = PBXGroup;
+			children = (
+				221AB2CC3396E7F6DF522524 /* ProAccess.swift */,
+			);
+			path = Purchases;
 			sourceTree = "<group>";
 		};
 		DED0E37E00F603E748DC533F /* Onboarding */ = {
@@ -224,6 +269,7 @@
 				FAF4254FC47B388C963F2BFB /* Domain */,
 				E12354B099680F991E6EFBFE /* Features */,
 				117B4EB5CB3809758488A362 /* Persistence */,
+				D1E759CF942C93499E38DA1E /* Purchases */,
 				0E6EF091E58506F6D5957700 /* Resources */,
 				14C7E14D05E9103D826DCB01 /* Assets.xcassets */,
 			);
@@ -235,7 +281,10 @@
 			children = (
 				169F6163B28A62154612719F /* Home */,
 				DED0E37E00F603E748DC533F /* Onboarding */,
+				4E2CA40FDECFD8250ADC9CC2 /* Progress */,
+				C5F1EC21BA4D3620C47A6592 /* Settings */,
 				C831F5C3C6061073BD16249B /* Shell */,
+				C2283D5B4E053D6536050C00 /* Statistics */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -249,6 +298,7 @@
 				78852B861198074D7DB000C6 /* EasterCalendar.swift */,
 				C1AA7498D38F7FB4EBC4B479 /* HomeSummary.swift */,
 				5C30DA6DB024DF8BE38101D3 /* MilestoneCatalog.swift */,
+				6ADEBCDF11037F21165D1171 /* MonthCalendar.swift */,
 				78B3E0909682864E51C1687B /* SavingsCalculator.swift */,
 				3D6853DAD1982DFC25EEA05C /* StreakCalculator.swift */,
 				376BB8EE5AE6DB0816710DFB /* TrackingTypes.swift */,
@@ -399,9 +449,14 @@
 				DD672FBE0D9AB1FE5F30FF4E /* MainTabView.swift in Sources */,
 				F2311E653787F6CC81BCF0CC /* MilestoneCatalog.swift in Sources */,
 				DD9E1DCBE65A75BF96FEEA5D /* Models.swift in Sources */,
+				4140E11E739E5EF6706AF4F7 /* MonthCalendar.swift in Sources */,
 				98B3F013CE47734DA3D81981 /* OnboardingFlowView.swift in Sources */,
 				82CBE9FE5FB1DF393F55070F /* OnboardingModel.swift in Sources */,
+				47185BD52A341D094D8E703A /* ProAccess.swift in Sources */,
+				27A69AFFEDD78E790547182B /* ProgressView.swift in Sources */,
 				2590337C15D5D9A5DE3DF6AC /* SavingsCalculator.swift in Sources */,
+				0263BC216525FC2AE8389532 /* SettingsView.swift in Sources */,
+				B53235F0EFF4D257C285F484 /* StatisticsView.swift in Sources */,
 				A744D891BC4FD29166343E26 /* StreakCalculator.swift in Sources */,
 				1131D1C6EB66BB206AC58264 /* TrackingStore.swift in Sources */,
 				9861239402FD22F51A86B812 /* TrackingTypes.swift in Sources */,
@@ -418,6 +473,7 @@
 				13A849F6E376810DD567D4B1 /* HomeSummaryTests.swift in Sources */,
 				12AB7F79B329DAC62A134500 /* MilestoneCatalogTests.swift in Sources */,
 				BC7857FCD4AACF83BE1A5AD1 /* ModelStoreTests.swift in Sources */,
+				3BD63C5E614C5113241E054E /* MonthCalendarTests.swift in Sources */,
 				F6D3B65F133ED537E7895172 /* SavingsCalculatorTests.swift in Sources */,
 				803DEAF3A7CC34483EFFE6F1 /* StreakCalculatorTests.swift in Sources */,
 				13C1CD9E121F8400A190EC80 /* WidgetSnapshotStoreTests.swift in Sources */,

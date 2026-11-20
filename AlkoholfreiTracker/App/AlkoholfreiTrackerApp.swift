@@ -3,23 +3,12 @@ import SwiftUI
 
 @main
 struct AlkoholfreiTrackerApp: App {
-    private let container: ModelContainer?
-
-    init() {
-        container = try? AppModelContainer.make()
-    }
+    private let container = AppModelContainer.makePersistentOrMemory()
 
     var body: some Scene {
         WindowGroup {
-            if let container {
-                RootView()
-                    .modelContainer(container)
-            } else {
-                ContentUnavailableView(
-                    "Daten konnten nicht geöffnet werden",
-                    systemImage: "externaldrive.badge.xmark"
-                )
-            }
+            RootView()
         }
+        .modelContainer(container)
     }
 }

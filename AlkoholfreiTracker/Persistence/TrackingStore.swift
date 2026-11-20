@@ -38,18 +38,31 @@ enum TrackingStore {
         today: Date = .now,
         calendar: Calendar = CivilCalendar.berlin
     ) throws {
-        let start = calendar.startOfDay(for: today)
+        try setStatus(status, on: today, context: context, now: today, calendar: calendar)
+    }
+
+    @MainActor
+    static func setStatus(
+        _ status: DayStatus,
+        on day: Date,
+        context: ModelContext,
+        now: Date = .now,
+        calendar: Calendar = CivilCalendar.berlin
+    ) throws {
+        let start = calendar.startOfDay(for: day)
+        let today = calendar.startOfDay(for: now)
+        guard start <= today else { return }
         let logs = try context.fetch(FetchDescriptor<DayLog>())
         if let existing = logs.first(where: { calendar.isDate($0.day, inSameDayAs: start) }) {
             existing.status = status
             existing.day = start
-            existing.updatedAt = today
+            existing.updatedAt = now
         } else {
-            context.insert(DayLog(day: start, status: status, updatedAt: today, calendar: calendar))
+            context.insert(DayLog(day: start, status: status, updatedAt: now, calendar: calendar))
         }
         try context.save()
-        try syncBadges(context: context, now: today, calendar: calendar)
-        try refreshSnapshot(context: context, now: today, calendar: calendar)
+        try syncBadges(context: context, now: now, calendar: calendar)
+        try refreshSnapshot(context: context, now: now, calendar: calendar)
     }
 
     @MainActor

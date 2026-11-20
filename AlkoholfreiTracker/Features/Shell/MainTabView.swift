@@ -8,15 +8,15 @@ struct MainTabView: View {
                 .tabItem {
                     Label("Heute", systemImage: "sun.max")
                 }
-            PlaceholderTab(title: "Fortschritt", systemImage: "leaf")
+            ProgressScreen()
                 .tabItem {
                     Label("Fortschritt", systemImage: "leaf")
                 }
-            PlaceholderTab(title: "Statistik", systemImage: "calendar")
+            StatisticsView()
                 .tabItem {
                     Label("Statistik", systemImage: "calendar")
                 }
-            PlaceholderTab(title: "Einstellungen", systemImage: "gearshape")
+            SettingsView()
                 .tabItem {
                     Label("Einstellungen", systemImage: "gearshape")
                 }
