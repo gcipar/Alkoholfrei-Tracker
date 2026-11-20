@@ -12,7 +12,7 @@ struct AlkoholfreiTrackerApp: App {
     var body: some Scene {
         WindowGroup {
             if let container {
-                PlaceholderHomeView()
+                RootView()
                     .modelContainer(container)
             } else {
                 ContentUnavailableView(

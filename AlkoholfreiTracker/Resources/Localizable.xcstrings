@@ -1,0 +1,330 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "100 Tage erreicht" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "100 Tage erreicht" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "100 days reached" } }
+      }
+    },
+    "Abgeschlossen" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Abgeschlossen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Finished" } }
+      }
+    },
+    "Alkoholfrei-Tracker" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Alkoholfrei-Tracker" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Alcohol-free tracker" } }
+      }
+    },
+    "Alkoholfreie Tage" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Alkoholfreie Tage" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Alcohol-free days" } }
+      }
+    },
+    "Alles gut. Deine alkoholfreien Tage bleiben gezählt. Die Serie beginnt beim nächsten alkoholfreien Tag von vorn." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Alles gut. Deine alkoholfreien Tage bleiben gezählt. Die Serie beginnt beim nächsten alkoholfreien Tag von vorn." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "That’s all right. Your alcohol-free days still count. The streak starts again on the next alcohol-free day." } }
+      }
+    },
+    "Anzahl Tage: %lld" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Anzahl Tage: %lld" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Number of days: %lld" } }
+      }
+    },
+    "Aschermittwoch bis Karsamstag" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Aschermittwoch bis Karsamstag" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ash Wednesday to Holy Saturday" } }
+      }
+    },
+    "Daraus entsteht nur eine Schätzung für Geld und Kalorien. Die Zahlen sind Startwerte, keine Nährwertberatung." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Daraus entsteht nur eine Schätzung für Geld und Kalorien. Die Zahlen sind Startwerte, keine Nährwertberatung." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This only estimates money and calories. The numbers are starting points, not nutrition advice." } }
+      }
+    },
+    "Daten konnten nicht geöffnet werden" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Daten konnten nicht geöffnet werden" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Data could not be opened" } }
+      }
+    },
+    "Dein übliches Trinken" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dein übliches Trinken" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "What you usually drink" } }
+      }
+    },
+    "Der Eintrag konnte nicht gespeichert werden." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Der Eintrag konnte nicht gespeichert werden." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The entry could not be saved." } }
+      }
+    },
+    "Die Angaben konnten nicht auf dem Gerät gespeichert werden." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Die Angaben konnten nicht auf dem Gerät gespeichert werden." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your answers could not be saved on this device." } }
+      }
+    },
+    "Dieser Bereich folgt." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dieser Bereich folgt." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This section is next." } }
+      }
+    },
+    "Dry January" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dry January" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Dry January" } }
+      }
+    },
+    "Du trägst jeden Tag selbst ein. Tage ohne Eintrag zählen nicht mit." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du trägst jeden Tag selbst ein. Tage ohne Eintrag zählen nicht mit." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You log each day yourself. Days without an entry do not count." } }
+      }
+    },
+    "Eigenes Ziel" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Eigenes Ziel" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your own goal" } }
+      }
+    },
+    "Eine feste Anzahl Tage" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Eine feste Anzahl Tage" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A fixed number of days" } }
+      }
+    },
+    "Einstellungen" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Einstellungen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } }
+      }
+    },
+    "Ein privates Tagebuch für alkoholfreie Tage. Keine medizinische Beratung." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ein privates Tagebuch für alkoholfreie Tage. Keine medizinische Beratung." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A private diary of alcohol-free days. Not medical advice." } }
+      }
+    },
+    "Fastenzeit" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fastenzeit" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Lent" } }
+      }
+    },
+    "Fertig" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fertig" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Done" } }
+      }
+    },
+    "Fortschritt" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fortschritt" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Progress" } }
+      }
+    },
+    "Fügt eine leere Zeile hinzu" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fügt eine leere Zeile hinzu" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Adds an empty row" } }
+      }
+    },
+    "geschätzt" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "geschätzt" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "estimated" } }
+      }
+    },
+    "Geschätzte Kalorien" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Geschätzte Kalorien" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Estimated calories" } }
+      }
+    },
+    "Geschätzt gespart" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Geschätzt gespart" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Estimated savings" } }
+      }
+    },
+    "Getränk hinzufügen" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Getränk hinzufügen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add a drink" } }
+      }
+    },
+    "Heute" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today" } }
+      }
+    },
+    "Heute alkoholfrei" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute alkoholfrei" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Alcohol-free today" } }
+      }
+    },
+    "Heute getrunken" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute getrunken" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Drank today" } }
+      }
+    },
+    "Heute ist als alkoholfrei gespeichert. Du kannst den Eintrag noch ändern." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute ist als alkoholfrei gespeichert. Du kannst den Eintrag noch ändern." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today is saved as alcohol-free. You can still change the entry." } }
+      }
+    },
+    "kcal" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "kcal" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "kcal" } }
+      }
+    },
+    "kcal, geschätzt" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "kcal, geschätzt" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "kcal, estimated" } }
+      }
+    },
+    "Letztes Getränk entfernen" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Letztes Getränk entfernen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Remove the last drink" } }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Name" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Name" } }
+      }
+    },
+    "Name des Getränks" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Name des Getränks" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Drink name" } }
+      }
+    },
+    "Nächster Schritt" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nächster Schritt" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Next step" } }
+      }
+    },
+    "Noch nicht gestartet" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Noch nicht gestartet" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Not started yet" } }
+      }
+    },
+    "Ohne Enddatum" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ohne Enddatum" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No end date" } }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OK" } }
+      }
+    },
+    "Preis in Euro" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Preis in Euro" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Price in euros" } }
+      }
+    },
+    "Pro Woche" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Pro Woche" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Per week" } }
+      }
+    },
+    "Setzt die Serie zurück. Die alkoholfreien Tage bleiben gezählt." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Setzt die Serie zurück. Die alkoholfreien Tage bleiben gezählt." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Resets the streak. Alcohol-free days still count." } }
+      }
+    },
+    "Speichern fehlgeschlagen" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Speichern fehlgeschlagen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Could not save" } }
+      }
+    },
+    "Speichert dein Ziel auf diesem Gerät" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Speichert dein Ziel auf diesem Gerät" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Saves your goal on this device" } }
+      }
+    },
+    "Startdatum" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Startdatum" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start date" } }
+      }
+    },
+    "Statistik" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Statistik" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Statistics" } }
+      }
+    },
+    "Tage zählen, ohne festes Ende" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Tage zählen, ohne festes Ende" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Count days, with no fixed end" } }
+      }
+    },
+    "Wann beginnt dein Zähler?" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Wann beginnt dein Zähler?" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "When does your counter start?" } }
+      }
+    },
+    "Was möchtest du angehen?" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Was möchtest du angehen?" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "What do you want to take on?" } }
+      }
+    },
+    "Weiter" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Weiter" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Continue" } }
+      }
+    },
+    "Zählt den heutigen Tag als alkoholfrei" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Zählt den heutigen Tag als alkoholfrei" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Counts today as alcohol-free" } }
+      }
+    },
+    "Zurück" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Zurück" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Back" } }
+      }
+    },
+    "1. bis 31. Januar" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "1. bis 31. Januar" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "1 to 31 January" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4CF8FB47836F6333973DCA /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B856F593AF6B5A85105F20 /* AppGroup.swift */; };
+		1131D1C6EB66BB206AC58264 /* TrackingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86D28BAB1C77232B76A8B5 /* TrackingStore.swift */; };
+		12AB7F79B329DAC62A134500 /* MilestoneCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696DE43B84E2279CC175F70 /* MilestoneCatalogTests.swift */; };
+		13A849F6E376810DD567D4B1 /* HomeSummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B747E13C3E042E554FCDB /* HomeSummaryTests.swift */; };
+		13C1CD9E121F8400A190EC80 /* WidgetSnapshotStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D371B3588D2C555D2B92D73 /* WidgetSnapshotStoreTests.swift */; };
+		2590337C15D5D9A5DE3DF6AC /* SavingsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B3E0909682864E51C1687B /* SavingsCalculator.swift */; };
+		2BA28A9D7B1411340D4D393B /* ChallengeScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998B6FBD9C5DAF3872BEDB32 /* ChallengeScheduleTests.swift */; };
+		3E83AC3934F0E123D80FBAB7 /* AlkoholfreiWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1D17695CB88931306C353333 /* AlkoholfreiWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		59E83185E0AE2E97B4052438 /* ChallengeSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA34BAF1E6A169387FB6F8 /* ChallengeSchedule.swift */; };
+		5B14F669C24FAD0EFB59AE94 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EAAA5B6711D3E3955173D0E8 /* Localizable.xcstrings */; };
+		6E1C6142F6416CD377995F7F /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B856F593AF6B5A85105F20 /* AppGroup.swift */; };
+		7D6929729CAC764D3E768C38 /* AlkoholfreiWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3A26A90BB711B5F104D0D /* AlkoholfreiWidget.swift */; };
+		803DEAF3A7CC34483EFFE6F1 /* StreakCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8764B30B01885C772BF38EC /* StreakCalculatorTests.swift */; };
+		82CBE9FE5FB1DF393F55070F /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C679F9844F869D4D41EDB60 /* OnboardingModel.swift */; };
+		92306FDCA2BF70F87ECDB0C3 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984085A11B68A076B62E7D4 /* WidgetSnapshot.swift */; };
+		9861239402FD22F51A86B812 /* TrackingTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BB8EE5AE6DB0816710DFB /* TrackingTypes.swift */; };
+		98B3F013CE47734DA3D81981 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C327C1D252C94FDB7540A5E /* OnboardingFlowView.swift */; };
+		A2A34257718000FFBA5D4F44 /* DraftDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05104D557BDE8C29EE2B873 /* DraftDrink.swift */; };
+		A63F6E989A7BB62DDC6EB40D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B927A650B98229B1BF6839 /* HomeView.swift */; };
+		A744D891BC4FD29166343E26 /* StreakCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6853DAD1982DFC25EEA05C /* StreakCalculator.swift */; };
+		B4E713719F9508415CD99B03 /* AlkoholfreiTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526DDCAD901CF3108C56741 /* AlkoholfreiTrackerApp.swift */; };
+		B6C36A3DF636BECDEE1D0FE2 /* EasterCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78852B861198074D7DB000C6 /* EasterCalendar.swift */; };
+		BC7857FCD4AACF83BE1A5AD1 /* ModelStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CD98A26E99C70F5D57CB8 /* ModelStoreTests.swift */; };
+		BE6582A1681D64CF7BE018A5 /* AppModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B5470B0C7C7FE03DEB630C /* AppModelContainer.swift */; };
+		DD672FBE0D9AB1FE5F30FF4E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28002B1504D54E98D8583984 /* MainTabView.swift */; };
+		DD9E1DCBE65A75BF96FEEA5D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A748B4EC767A4235C87433 /* Models.swift */; };
+		E271334C6B4B1627F2EAFBA8 /* HomeSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA7498D38F7FB4EBC4B479 /* HomeSummary.swift */; };
+		E540D9870332011E8AC9FCF7 /* CivilCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF63BEF509F9388C465C63A /* CivilCalendar.swift */; };
+		EF1237B771E07B560D632E41 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984085A11B68A076B62E7D4 /* WidgetSnapshot.swift */; };
+		EFA4F36B3AF9839413380CFF /* EasterCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB1D1DC6B154E79A3B652C /* EasterCalendarTests.swift */; };
+		F1472A61E311D8C6C397D530 /* ChallengePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DEAC3D9268F4C5F21A94E3 /* ChallengePlanner.swift */; };
+		F2311E653787F6CC81BCF0CC /* MilestoneCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C30DA6DB024DF8BE38101D3 /* MilestoneCatalog.swift */; };
+		F305FEB48FEC2BA256893E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C7E14D05E9103D826DCB01 /* Assets.xcassets */; };
+		F6D3B65F133ED537E7895172 /* SavingsCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4952BB307A6E52021E22E6 /* SavingsCalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CAEB5E83372A28E8F8153E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A487B3E9B812BF25E28551F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F856B4AFB87FD5AD389681A7;
+			remoteInfo = AlkoholfreiTracker;
+		};
+		BD93D9B22602A742C3C2A953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A487B3E9B812BF25E28551F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D425BEADF260D8B84966346;
+			remoteInfo = AlkoholfreiWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		044A94136BC7BCD3208D2F80 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E83AC3934F0E123D80FBAB7 /* AlkoholfreiWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14C7E14D05E9103D826DCB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C679F9844F869D4D41EDB60 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		1D17695CB88931306C353333 /* AlkoholfreiWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AlkoholfreiWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		28002B1504D54E98D8583984 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2D371B3588D2C555D2B92D73 /* WidgetSnapshotStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotStoreTests.swift; sourceTree = "<group>"; };
+		34B927A650B98229B1BF6839 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		376BB8EE5AE6DB0816710DFB /* TrackingTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingTypes.swift; sourceTree = "<group>"; };
+		3984085A11B68A076B62E7D4 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+		3D6853DAD1982DFC25EEA05C /* StreakCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalculator.swift; sourceTree = "<group>"; };
+		4C327C1D252C94FDB7540A5E /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		52B5470B0C7C7FE03DEB630C /* AppModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModelContainer.swift; sourceTree = "<group>"; };
+		5696DE43B84E2279CC175F70 /* MilestoneCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneCatalogTests.swift; sourceTree = "<group>"; };
+		5A86D28BAB1C77232B76A8B5 /* TrackingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingStore.swift; sourceTree = "<group>"; };
+		5C30DA6DB024DF8BE38101D3 /* MilestoneCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneCatalog.swift; sourceTree = "<group>"; };
+		6BEA34BAF1E6A169387FB6F8 /* ChallengeSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeSchedule.swift; sourceTree = "<group>"; };
+		78852B861198074D7DB000C6 /* EasterCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasterCalendar.swift; sourceTree = "<group>"; };
+		78B3E0909682864E51C1687B /* SavingsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsCalculator.swift; sourceTree = "<group>"; };
+		887C405B92196B5C0509B1E8 /* AlkoholfreiTracker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AlkoholfreiTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EB1D1DC6B154E79A3B652C /* EasterCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasterCalendarTests.swift; sourceTree = "<group>"; };
+		89DEAC3D9268F4C5F21A94E3 /* ChallengePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengePlanner.swift; sourceTree = "<group>"; };
+		9526DDCAD901CF3108C56741 /* AlkoholfreiTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlkoholfreiTrackerApp.swift; sourceTree = "<group>"; };
+		998B6FBD9C5DAF3872BEDB32 /* ChallengeScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScheduleTests.swift; sourceTree = "<group>"; };
+		9C2B747E13C3E042E554FCDB /* HomeSummaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSummaryTests.swift; sourceTree = "<group>"; };
+		A8764B30B01885C772BF38EC /* StreakCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalculatorTests.swift; sourceTree = "<group>"; };
+		B1A748B4EC767A4235C87433 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C05104D557BDE8C29EE2B873 /* DraftDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftDrink.swift; sourceTree = "<group>"; };
+		C1AA7498D38F7FB4EBC4B479 /* HomeSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSummary.swift; sourceTree = "<group>"; };
+		C92CD98A26E99C70F5D57CB8 /* ModelStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStoreTests.swift; sourceTree = "<group>"; };
+		CFB3A26A90BB711B5F104D0D /* AlkoholfreiWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlkoholfreiWidget.swift; sourceTree = "<group>"; };
+		CFF63BEF509F9388C465C63A /* CivilCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilCalendar.swift; sourceTree = "<group>"; };
+		E874A29EEBB19AC71675F8C8 /* AlkoholfreiTrackerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AlkoholfreiTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B856F593AF6B5A85105F20 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		EAAA5B6711D3E3955173D0E8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		FB4952BB307A6E52021E22E6 /* SavingsCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsCalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E6EF091E58506F6D5957700 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA5B6711D3E3955173D0E8 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0EF76891F26221F2ED66AA07 = {
+			isa = PBXGroup;
+			children = (
+				E0FBEE16857BFF6EA5279259 /* AlkoholfreiTracker */,
+				C15345E0809087D0D8033F4E /* AlkoholfreiTrackerTests */,
+				DEDC10E4640B184D372D9649 /* AlkoholfreiWidget */,
+				AF0B04766ACCB7C6D2A3AB0C /* Shared */,
+				8940D9523CFACDC4EBD84787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		117B4EB5CB3809758488A362 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B1A748B4EC767A4235C87433 /* Models.swift */,
+				5A86D28BAB1C77232B76A8B5 /* TrackingStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		169F6163B28A62154612719F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				34B927A650B98229B1BF6839 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8940D9523CFACDC4EBD84787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887C405B92196B5C0509B1E8 /* AlkoholfreiTracker.app */,
+				E874A29EEBB19AC71675F8C8 /* AlkoholfreiTrackerTests.xctest */,
+				1D17695CB88931306C353333 /* AlkoholfreiWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		956F72669693E1C7951764C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9526DDCAD901CF3108C56741 /* AlkoholfreiTrackerApp.swift */,
+				52B5470B0C7C7FE03DEB630C /* AppModelContainer.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AF0B04766ACCB7C6D2A3AB0C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E8B856F593AF6B5A85105F20 /* AppGroup.swift */,
+				3984085A11B68A076B62E7D4 /* WidgetSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C15345E0809087D0D8033F4E /* AlkoholfreiTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				998B6FBD9C5DAF3872BEDB32 /* ChallengeScheduleTests.swift */,
+				88EB1D1DC6B154E79A3B652C /* EasterCalendarTests.swift */,
+				9C2B747E13C3E042E554FCDB /* HomeSummaryTests.swift */,
+				5696DE43B84E2279CC175F70 /* MilestoneCatalogTests.swift */,
+				C92CD98A26E99C70F5D57CB8 /* ModelStoreTests.swift */,
+				FB4952BB307A6E52021E22E6 /* SavingsCalculatorTests.swift */,
+				A8764B30B01885C772BF38EC /* StreakCalculatorTests.swift */,
+				2D371B3588D2C555D2B92D73 /* WidgetSnapshotStoreTests.swift */,
+			);
+			path = AlkoholfreiTrackerTests;
+			sourceTree = "<group>";
+		};
+		C831F5C3C6061073BD16249B /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				28002B1504D54E98D8583984 /* MainTabView.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		DED0E37E00F603E748DC533F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C05104D557BDE8C29EE2B873 /* DraftDrink.swift */,
+				4C327C1D252C94FDB7540A5E /* OnboardingFlowView.swift */,
+				1C679F9844F869D4D41EDB60 /* OnboardingModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DEDC10E4640B184D372D9649 /* AlkoholfreiWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3A26A90BB711B5F104D0D /* AlkoholfreiWidget.swift */,
+			);
+			path = AlkoholfreiWidget;
+			sourceTree = "<group>";
+		};
+		E0FBEE16857BFF6EA5279259 /* AlkoholfreiTracker */ = {
+			isa = PBXGroup;
+			children = (
+				956F72669693E1C7951764C3 /* App */,
+				FAF4254FC47B388C963F2BFB /* Domain */,
+				E12354B099680F991E6EFBFE /* Features */,
+				117B4EB5CB3809758488A362 /* Persistence */,
+				0E6EF091E58506F6D5957700 /* Resources */,
+				14C7E14D05E9103D826DCB01 /* Assets.xcassets */,
+			);
+			path = AlkoholfreiTracker;
+			sourceTree = "<group>";
+		};
+		E12354B099680F991E6EFBFE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				169F6163B28A62154612719F /* Home */,
+				DED0E37E00F603E748DC533F /* Onboarding */,
+				C831F5C3C6061073BD16249B /* Shell */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FAF4254FC47B388C963F2BFB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				89DEAC3D9268F4C5F21A94E3 /* ChallengePlanner.swift */,
+				6BEA34BAF1E6A169387FB6F8 /* ChallengeSchedule.swift */,
+				CFF63BEF509F9388C465C63A /* CivilCalendar.swift */,
+				78852B861198074D7DB000C6 /* EasterCalendar.swift */,
+				C1AA7498D38F7FB4EBC4B479 /* HomeSummary.swift */,
+				5C30DA6DB024DF8BE38101D3 /* MilestoneCatalog.swift */,
+				78B3E0909682864E51C1687B /* SavingsCalculator.swift */,
+				3D6853DAD1982DFC25EEA05C /* StreakCalculator.swift */,
+				376BB8EE5AE6DB0816710DFB /* TrackingTypes.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62103C86FF549963E1E5CCF9 /* AlkoholfreiTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE09D725D4D340C82DE1B4D /* Build configuration list for PBXNativeTarget "AlkoholfreiTrackerTests" */;
+			buildPhases = (
+				F1392B2C1EA459F884B48B37 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B6BD8EE48DDD483B5E0D62 /* PBXTargetDependency */,
+			);
+			name = AlkoholfreiTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = AlkoholfreiTrackerTests;
+			productReference = E874A29EEBB19AC71675F8C8 /* AlkoholfreiTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D425BEADF260D8B84966346 /* AlkoholfreiWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8773E173EBFE59897E9398D /* Build configuration list for PBXNativeTarget "AlkoholfreiWidget" */;
+			buildPhases = (
+				49703CDCA2F57F22B40E6959 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlkoholfreiWidget;
+			packageProductDependencies = (
+			);
+			productName = AlkoholfreiWidget;
+			productReference = 1D17695CB88931306C353333 /* AlkoholfreiWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F856B4AFB87FD5AD389681A7 /* AlkoholfreiTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B4D2A2F3547D688D6F55EA /* Build configuration list for PBXNativeTarget "AlkoholfreiTracker" */;
+			buildPhases = (
+				D85E3D6AB43C03772D496686 /* Sources */,
+				99EE823B1A959CF358E22AD9 /* Resources */,
+				044A94136BC7BCD3208D2F80 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76DEA7C5E5E729721C23F27 /* PBXTargetDependency */,
+			);
+			name = AlkoholfreiTracker;
+			packageProductDependencies = (
+			);
+			productName = AlkoholfreiTracker;
+			productReference = 887C405B92196B5C0509B1E8 /* AlkoholfreiTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A487B3E9B812BF25E28551F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					62103C86FF549963E1E5CCF9 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					8D425BEADF260D8B84966346 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F856B4AFB87FD5AD389681A7 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 85468F8CE0CE4C7F486BE1FB /* Build configuration list for PBXProject "AlkoholfreiTracker" */;
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+				en,
+			);
+			mainGroup = 0EF76891F26221F2ED66AA07;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8940D9523CFACDC4EBD84787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F856B4AFB87FD5AD389681A7 /* AlkoholfreiTracker */,
+				8D425BEADF260D8B84966346 /* AlkoholfreiWidget */,
+				62103C86FF549963E1E5CCF9 /* AlkoholfreiTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EE823B1A959CF358E22AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F305FEB48FEC2BA256893E5B /* Assets.xcassets in Resources */,
+				5B14F669C24FAD0EFB59AE94 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49703CDCA2F57F22B40E6959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6929729CAC764D3E768C38 /* AlkoholfreiWidget.swift in Sources */,
+				6E1C6142F6416CD377995F7F /* AppGroup.swift in Sources */,
+				EF1237B771E07B560D632E41 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85E3D6AB43C03772D496686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E713719F9508415CD99B03 /* AlkoholfreiTrackerApp.swift in Sources */,
+				0D4CF8FB47836F6333973DCA /* AppGroup.swift in Sources */,
+				BE6582A1681D64CF7BE018A5 /* AppModelContainer.swift in Sources */,
+				F1472A61E311D8C6C397D530 /* ChallengePlanner.swift in Sources */,
+				59E83185E0AE2E97B4052438 /* ChallengeSchedule.swift in Sources */,
+				E540D9870332011E8AC9FCF7 /* CivilCalendar.swift in Sources */,
+				A2A34257718000FFBA5D4F44 /* DraftDrink.swift in Sources */,
+				B6C36A3DF636BECDEE1D0FE2 /* EasterCalendar.swift in Sources */,
+				E271334C6B4B1627F2EAFBA8 /* HomeSummary.swift in Sources */,
+				A63F6E989A7BB62DDC6EB40D /* HomeView.swift in Sources */,
+				DD672FBE0D9AB1FE5F30FF4E /* MainTabView.swift in Sources */,
+				F2311E653787F6CC81BCF0CC /* MilestoneCatalog.swift in Sources */,
+				DD9E1DCBE65A75BF96FEEA5D /* Models.swift in Sources */,
+				98B3F013CE47734DA3D81981 /* OnboardingFlowView.swift in Sources */,
+				82CBE9FE5FB1DF393F55070F /* OnboardingModel.swift in Sources */,
+				2590337C15D5D9A5DE3DF6AC /* SavingsCalculator.swift in Sources */,
+				A744D891BC4FD29166343E26 /* StreakCalculator.swift in Sources */,
+				1131D1C6EB66BB206AC58264 /* TrackingStore.swift in Sources */,
+				9861239402FD22F51A86B812 /* TrackingTypes.swift in Sources */,
+				92306FDCA2BF70F87ECDB0C3 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1392B2C1EA459F884B48B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA28A9D7B1411340D4D393B /* ChallengeScheduleTests.swift in Sources */,
+				EFA4F36B3AF9839413380CFF /* EasterCalendarTests.swift in Sources */,
+				13A849F6E376810DD567D4B1 /* HomeSummaryTests.swift in Sources */,
+				12AB7F79B329DAC62A134500 /* MilestoneCatalogTests.swift in Sources */,
+				BC7857FCD4AACF83BE1A5AD1 /* ModelStoreTests.swift in Sources */,
+				F6D3B65F133ED537E7895172 /* SavingsCalculatorTests.swift in Sources */,
+				803DEAF3A7CC34483EFFE6F1 /* StreakCalculatorTests.swift in Sources */,
+				13C1CD9E121F8400A190EC80 /* WidgetSnapshotStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96B6BD8EE48DDD483B5E0D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F856B4AFB87FD5AD389681A7 /* AlkoholfreiTracker */;
+			targetProxy = 9CAEB5E83372A28E8F8153E1 /* PBXContainerItemProxy */;
+		};
+		B76DEA7C5E5E729721C23F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D425BEADF260D8B84966346 /* AlkoholfreiWidget */;
+			targetProxy = BD93D9B22602A742C3C2A953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C5D116146430F5D30C119ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlkoholfreiTracker/AlkoholfreiTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Alkoholfrei-Tracker";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.example.alkoholfrei-tracker";
+				PRODUCT_NAME = AlkoholfreiTracker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44853FC4840438BF68C6A93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		812C85F9F327AF47AFA2E0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.example.alkoholfrei-tracker.tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlkoholfreiTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlkoholfreiTracker";
+			};
+			name = Debug;
+		};
+		A67116854E2A3981969A7D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C3497E0B0C5AD3A1285F7389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AlkoholfreiWidget/AlkoholfreiWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlkoholfreiWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.example.alkoholfrei-tracker.widget";
+				PRODUCT_NAME = AlkoholfreiWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C852A0DD916AE8B4C31E9166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlkoholfreiTracker/AlkoholfreiTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Alkoholfrei-Tracker";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.example.alkoholfrei-tracker";
+				PRODUCT_NAME = AlkoholfreiTracker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F584745FE49A4D739366B96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AlkoholfreiWidget/AlkoholfreiWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlkoholfreiWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.example.alkoholfrei-tracker.widget";
+				PRODUCT_NAME = AlkoholfreiWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0E9D21FBA33CCCC6B2005E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.example.alkoholfrei-tracker.tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlkoholfreiTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlkoholfreiTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85468F8CE0CE4C7F486BE1FB /* Build configuration list for PBXProject "AlkoholfreiTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44853FC4840438BF68C6A93D /* Debug */,
+				A67116854E2A3981969A7D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8773E173EBFE59897E9398D /* Build configuration list for PBXNativeTarget "AlkoholfreiWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F584745FE49A4D739366B96F /* Debug */,
+				C3497E0B0C5AD3A1285F7389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DDE09D725D4D340C82DE1B4D /* Build configuration list for PBXNativeTarget "AlkoholfreiTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812C85F9F327AF47AFA2E0A6 /* Debug */,
+				FB0E9D21FBA33CCCC6B2005E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5B4D2A2F3547D688D6F55EA /* Build configuration list for PBXNativeTarget "AlkoholfreiTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5D116146430F5D30C119ED /* Debug */,
+				C852A0DD916AE8B4C31E9166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A487B3E9B812BF25E28551F /* Project object */;
+}
